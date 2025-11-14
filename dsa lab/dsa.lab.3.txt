@@ -1,0 +1,41 @@
+Array operations using the Numpy package 
+
+
+
+
+import numpy as np
+array1 = np.array([[1, 2, 3], [4, 5, 6]])
+array2 = np.array([[7, 8, 9], [10, 11, 12]])
+print("Array 1:")
+print(array1)
+print("\nArray 2:")
+print(array2)
+array_addition = array1 + array2
+print("\nAddition of Array 1 and Array 2:")
+print(array_addition)
+array_subtraction = array1 - array2
+print("\nSubtraction of Array 1 and Array 2:")
+print(array_subtraction)
+array_multiplication = array1 * array2
+print("\nElement-wise Multiplication of Array 1 and Array 2:")
+print(array_multiplication)
+array_transpose = np.transpose(array1)
+print("\nTranspose of Array 1:")
+print(array_transpose)
+array_reshaped = array1.reshape(3, 2)
+print("\nReshaped Array 1 (from 2x3 to 3x2):")
+print(array_reshaped)
+mean_array1 = np.mean(array1)
+print("\nMean of Array 1:")
+print(mean_array1)
+median_array1 = np.median(array1)
+print("\nMedian of Array 1:")
+print(median_array1)
+min_value = np.min(array1)
+max_value = np.max(array1)
+print("\nMin and Max of Array 1:")
+print("Min:", min_value)
+print("Max:", max_value)
+std_deviation = np.std(array1)
+print("\nStandard Deviation of Array 1:")
+print(std_deviation)
